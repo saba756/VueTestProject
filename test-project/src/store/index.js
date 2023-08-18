@@ -1,10 +1,11 @@
 // store/index.js
 import { createStore } from 'vuex'
 import settings from './modules/settings'
-
+import table from './modules/table'
 const store = createStore({
   modules: {
-    settings
+    settings,
+    table
   }
 })
 store.state.settings
